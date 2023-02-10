@@ -1,0 +1,98 @@
+.page__header {
+  display: flex;
+  width: 100%;
+  border-bottom: 1px solid #ececec;
+  justify-content: space-evenly;
+  align-items: center;
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .page__logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    &__item {
+      color: var(--brand-color);
+    }
+  }
+  .nav {
+    position: relative;
+  }
+  .menu__nav {
+    display: inline-flex;
+    gap: 50px;
+    &__item {
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 1;
+      flex-shrink: 0;
+    }
+    &__link {
+      padding-bottom: 32px;
+      padding-top: 32px;
+      color: var(--color-nav);
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1.14px;
+      position: relative;
+      &:hover,
+      &:active,
+      &:focus {
+        color: var(--brand-color);
+      }
+    }
+    .curent-card::after {
+      content: "";
+      width: 100%;
+      height: 4px;
+      border-radius: 2px;
+      position: absolute;
+      background-color: var(--brand-color);
+      bottom: 0;
+      left: 0;
+    }
+  }
+  .contacts__nav {
+    display: flex;
+    gap: 40px;
+    margin-right: auto;
+    padding-left: 339px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  &__item {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  .contacts__source {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--text-color);
+
+    &:hover,
+    &:active,
+    &:focus {
+      color: var(--brand-color);
+      svg:hover {
+        fill: var(--brand-color);
+      }
+    }
+  }
+  .contacts__icon {
+    display: inline-block;
+    color: var(--highlight-color);
+    fill: currentColor;
+    margin-right: 10px;
+    color: var(--text-color);
+    height: 14px;
+    width: 16px;
+  }
+}

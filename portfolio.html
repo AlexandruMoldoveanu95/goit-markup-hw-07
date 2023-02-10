@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--my head-->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <!--my header-->
+    <header class="page-header">
+      <div class="container">
+        <a href="./index.html" class="logo-link link"
+          ><span class="logo-item">Web</span>Studio</a
+        >
+        <!--navigation to other pages-->
+        <nav class="nav-list">
+          <ul class="unstyled-list menu-nav">
+            <li class="menu-nav-item">
+              <a class="nav-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-nav-item">
+              <a class="nav-link link curent-card" href="portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="menu-nav-item">
+              <a class="nav-link link" href="#contacts.html">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <!--Contact links-->
+        <ul class="unstyled-list contacts-nav-list">
+          <li class="contacts-nav-item">
+            <a class="contact-nav-mail link" href="mailto:info@devstudio.com">
+              <svg class="icon-nav" height="12">
+                <use href="./images/icons.svg/icons.svg#icon-mail"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-nav-item">
+            <a class="contact-nav-tel link" href="tel:+1212-772-4150">
+              <svg class="icon-nav" height="16">
+                <use href="./images/icons.svg/icons.svg#icon-smartphone"></use>
+              </svg>
+              +1 212-772-4150</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!--The unique content of the page-->
+    <main class="main-page-portofolio">
+      <section class="section-portofolio section">
+        <div class="container">
+          <h1 hidden>Image gallery</h1>
+          <ul class="unstyled-list button-section-list">
+            <li class="button-section-item">
+              <button type="button" class="button-nav">All</button>
+            </li>
+            <li class="button-section-item">
+              <button type="button" class="button-nav">Web-sites</button>
+            </li>
+            <li class="button-section-item">
+              <button type="button" class="button-nav">Apps</button>
+            </li>
+            <li class="button-section-item">
+              <button type="button" class="button-nav">Design</button>
+            </li>
+            <li class="button-section-item">
+              <button type="button" class="button-nav">Marketing</button>
+            </li>
+          </ul>
+          <ul class="unstyled-list section-gallery-list">
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Technoduck is a state-of-the-art coronavirus distribution
+                    platform. Companies use this platform for digital espionage
+                    and attacks on competitors' secure servers.
+                  </p>
+                </div>
+                <img
+                  src="./images/portfolio-images/portfolio-01.jpg"
+                  alt="Web-site"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Technoduck</h2>
+                <p class="domain-description">Web-site</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    We make business cards, map and presentation flyer, website,
+                    poster design, presentation catalog, newsletter, postcard,
+                    street banner, e-banner and obviously the logo.
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-02.jpg"
+                  alt="Design"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Poster New Orlean vs Golden Star</h2>
+                <p class="domain-description">Design</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Shrimp, lobster, clams, trout, mackerel, squid. Here you
+                    find what you need. Subscribe! Join the 14,500 subscribers
+                    and get a 25% discount on every order, with 10 lei/month!
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-03.jpg"
+                  alt="Seafood-Restaurant "
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Seafood Restaurant</h2>
+                <p class="domain-description">Apps</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Accessories and others: car chargers, protective covers,
+                    sunshades, oils, car paints, thinners, paint guns, audio.
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-04.jpg"
+                  alt="headphones"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Project Prime</h2>
+                <p class="domain-description">Marketing</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Use the Project or Roadmap app in Teams
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-05.jpg"
+                  alt="Project-Boxes"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Project Boxes</h2>
+                <p class="domain-description">Apps</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    You can adapt the entire content of the page according to
+                    your needs. Start here! Ideal for private and business
+                    websites. The easiest editor on the market. 24/7 support.
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-06.jpg"
+                  alt="forge"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Inspiration has no Borders</h2>
+                <p class="domain-description">Web-site</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    One thing I’ve learned in my journey as a designer is that
+                    design has to be inclusive and reflect the whole world
+                    around us.
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-07.jpg"
+                  alt="book"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Limited Edition</h2>
+                <p class="domain-description">Design</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Ai auzit despre noi? Shop multi-brand, designeri
+                    internaționali&români, încălțăminte&accesorii
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-08.jpg"
+                  alt="label"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Project LAB</h2>
+                <p class="domain-description">Marketing</p>
+              </div>
+            </li>
+            <li class="item-gallery">
+              <div class="overlay-card">
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Use Semrush small biz tools to find profitable keywords and
+                    get ahead of competitors. With Semrush marketing software,
+                    you can grow your small business faster.
+                  </p>
+                </div>
+
+                <img
+                  src="./images/portfolio-images/portfolio-09.jpg"
+                  alt="note-book"
+                  width="370"
+                />
+              </div>
+              <div class="cards">
+                <h2 class="product-title">Growing Business</h2>
+                <p class="domain-description">Apps</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="container">
+        <div class="footer-container">
+          <!--logo pages-->
+          <a class="logo-footer link" href="index.html">
+            <span class="logo-footer-item">Web</span>Studio</a
+          >
+
+          <!--address and contact details-->
+          <address class="address-nav">
+            <ul class="unstyled-list footer-list-main">
+              <li class="footer-list-item">
+                <a
+                  class="link address-nav-location"
+                  href="https://goo.gl/maps/WX2whz8Sf4KxUwsg9"
+                  target="_blank"
+                  >695 Park Ave, NY 10065, USA</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <a
+                  class="link footer-contacts"
+                  href="mailto:info@devstudio.com:"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer-list-item">
+                <a class="link footer-contacts" href="tel:+1212-772-4150"
+                  >+1 212-772-4150
+                </a>
+              </li>
+            </ul>
+          </address>
+        </div>
+
+        <!--find-us-->
+        <section class="find-us">
+          <div class="container-find">
+            <h4 class="title-find">FIND US ON</h4>
+            <ul class="unstyled-list footer-icons-list">
+              <li class="social-find">
+                <a href="#" target="_blank" class="social-link-item">
+                  <svg class="social-icons" height="20px">
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-instagram1"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-find">
+                <a href="#" target="_blank" class="social-link-item">
+                  <svg class="social-icons" height="20px">
+                    <use href="./images/icons.svg/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-find">
+                <a href="#" target="_blank" class="social-link-item">
+                  <svg class="social-icons" height="20px">
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-find">
+                <a href="#" target="_blank" class="social-link-item">
+                  <svg class="social-icons" height="20px">
+                    <use
+                      href="./images/icons.svg/icons.svg#icon-linkedin2"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="container-subscribe">
+          <h3 class="subcribe-title">Subscribe to the newsletter</h3>
+          <form class="footer-form">
+            <label class="contact-subscribe">
+              <input
+                class="input-adrees"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="button-subscribe" type="submit">
+              <svg class="submit-send" width="24" height="24">
+                <use
+                  href="./images/icons.svg/icons.svg#icon-icon-send"
+                ></use></svg
+              >Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+    <!--footer pages-->
+  </body>
+</html>
